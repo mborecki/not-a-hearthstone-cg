@@ -1,0 +1,22 @@
+{
+  "name": "not-a-hearthstone-cg",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "browserify ./workspace/index.ts -p tsify > bundle.js",
+    "watch": "watchify ./workspace/index.ts -p tsify -o bundle.js -v",
+    "test": "jest --notify --config=jest.conf.json"
+  },
+  "author": "M.Borecki",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "tsify": "^4.0.0",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.4.2",
+    "ts-jest": "^23.0.1",
+    "watchify": "^3.9.0"
+  }
+}
