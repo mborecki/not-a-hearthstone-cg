@@ -2,6 +2,8 @@
 
 Simple Typescript template for https://www.codingame.com puzzle.
 
+https://www.codingame.com/ide/challenge/legends-of-code-and-magic-marathon
+
 ## How to use?
 
 1. Download/clone repo.
